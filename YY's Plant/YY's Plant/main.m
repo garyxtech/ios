@@ -2,8 +2,8 @@
 //  main.m
 //  YY's Plant
 //
-//  Created by 薛 洪 on 13-2-12.
-//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
+//  Created by 薛 洪 on 13-2-13.
+//  Copyright (c) 2013年 薛 洪. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

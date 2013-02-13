@@ -7,115 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D3D9CF416CA33FD00967292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3D9CF316CA33FD00967292 /* UIKit.framework */; };
-		7D3D9CF616CA33FD00967292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3D9CF516CA33FD00967292 /* Foundation.framework */; };
-		7D3D9CF816CA33FD00967292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3D9CF716CA33FD00967292 /* CoreGraphics.framework */; };
-		7D3D9CFE16CA33FD00967292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D3D9CFC16CA33FD00967292 /* InfoPlist.strings */; };
-		7D3D9D0016CA33FD00967292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D9CFF16CA33FD00967292 /* main.m */; };
-		7D3D9D0416CA33FD00967292 /* GKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D9D0316CA33FD00967292 /* GKAppDelegate.m */; };
-		7D3D9D0C16CA344F00967292 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D3D9D0B16CA344F00967292 /* Main.xib */; };
-		7D3D9D0F16CA3A4A00967292 /* GKMainUIViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D9D0E16CA3A4A00967292 /* GKMainUIViewControllerViewController.m */; };
+		7D2F1DD816CBAD080091AB8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F1DD716CBAD080091AB8F /* UIKit.framework */; };
+		7D2F1DDA16CBAD080091AB8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F1DD916CBAD080091AB8F /* Foundation.framework */; };
+		7D2F1DDC16CBAD080091AB8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2F1DDB16CBAD080091AB8F /* CoreGraphics.framework */; };
+		7D2F1DE216CBAD080091AB8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1DE016CBAD080091AB8F /* InfoPlist.strings */; };
+		7D2F1DE416CBAD080091AB8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F1DE316CBAD080091AB8F /* main.m */; };
+		7D2F1DE816CBAD080091AB8F /* GKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F1DE716CBAD080091AB8F /* GKAppDelegate.m */; };
+		7D2F1DEA16CBAD080091AB8F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1DE916CBAD080091AB8F /* Default.png */; };
+		7D2F1DEC16CBAD080091AB8F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1DEB16CBAD080091AB8F /* Default@2x.png */; };
+		7D2F1DEE16CBAD080091AB8F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1DED16CBAD080091AB8F /* Default-568h@2x.png */; };
+		7D2F1DF916CBAD840091AB8F /* GKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F1DF716CBAD840091AB8F /* GKRootViewController.m */; };
+		7D2F1DFA16CBAD840091AB8F /* GKRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1DF816CBAD840091AB8F /* GKRootViewController.xib */; };
+		7D2F1DFD16CBAF170091AB8F /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1DFC16CBAF170091AB8F /* search.png */; };
+		7D2F1E0116CBB0400091AB8F /* GKSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F1DFF16CBB0400091AB8F /* GKSearchViewController.m */; };
+		7D2F1E0216CBB0400091AB8F /* GKSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1E0016CBB0400091AB8F /* GKSearchViewController.xib */; };
+		7D2F1E0616CBBEE70091AB8F /* UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F1E0516CBBEE70091AB8F /* UIUtil.m */; };
+		7D2F1E0A16CBC94D0091AB8F /* GKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F1E0816CBC94D0091AB8F /* GKMainViewController.m */; };
+		7D2F1E0B16CBC94D0091AB8F /* GKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2F1E0916CBC94D0091AB8F /* GKMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D3D9CEF16CA33FD00967292 /* YY's Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YY's Plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D3D9CF316CA33FD00967292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7D3D9CF516CA33FD00967292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7D3D9CF716CA33FD00967292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7D3D9CFB16CA33FD00967292 /* YY's Plant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YY's Plant-Info.plist"; sourceTree = "<group>"; };
-		7D3D9CFD16CA33FD00967292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7D3D9CFF16CA33FD00967292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D3D9D0116CA33FD00967292 /* YY's Plant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YY's Plant-Prefix.pch"; sourceTree = "<group>"; };
-		7D3D9D0216CA33FD00967292 /* GKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKAppDelegate.h; sourceTree = "<group>"; };
-		7D3D9D0316CA33FD00967292 /* GKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAppDelegate.m; sourceTree = "<group>"; };
-		7D3D9D0B16CA344F00967292 /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
-		7D3D9D0D16CA3A4A00967292 /* GKMainUIViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKMainUIViewControllerViewController.h; sourceTree = "<group>"; };
-		7D3D9D0E16CA3A4A00967292 /* GKMainUIViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKMainUIViewControllerViewController.m; sourceTree = "<group>"; };
+		7D2F1DD416CBAD080091AB8F /* YY's Plant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YY's Plant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2F1DD716CBAD080091AB8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D2F1DD916CBAD080091AB8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D2F1DDB16CBAD080091AB8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D2F1DDF16CBAD080091AB8F /* YY's Plant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YY's Plant-Info.plist"; sourceTree = "<group>"; };
+		7D2F1DE116CBAD080091AB8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D2F1DE316CBAD080091AB8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D2F1DE516CBAD080091AB8F /* YY's Plant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YY's Plant-Prefix.pch"; sourceTree = "<group>"; };
+		7D2F1DE616CBAD080091AB8F /* GKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKAppDelegate.h; sourceTree = "<group>"; };
+		7D2F1DE716CBAD080091AB8F /* GKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAppDelegate.m; sourceTree = "<group>"; };
+		7D2F1DE916CBAD080091AB8F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7D2F1DEB16CBAD080091AB8F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7D2F1DED16CBAD080091AB8F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D2F1DF616CBAD840091AB8F /* GKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKRootViewController.h; sourceTree = "<group>"; };
+		7D2F1DF716CBAD840091AB8F /* GKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKRootViewController.m; sourceTree = "<group>"; };
+		7D2F1DF816CBAD840091AB8F /* GKRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GKRootViewController.xib; sourceTree = "<group>"; };
+		7D2F1DFC16CBAF170091AB8F /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		7D2F1DFE16CBB0400091AB8F /* GKSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKSearchViewController.h; sourceTree = "<group>"; };
+		7D2F1DFF16CBB0400091AB8F /* GKSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKSearchViewController.m; sourceTree = "<group>"; };
+		7D2F1E0016CBB0400091AB8F /* GKSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GKSearchViewController.xib; sourceTree = "<group>"; };
+		7D2F1E0416CBBEE70091AB8F /* UIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtil.h; sourceTree = "<group>"; };
+		7D2F1E0516CBBEE70091AB8F /* UIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtil.m; sourceTree = "<group>"; };
+		7D2F1E0716CBC94C0091AB8F /* GKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKMainViewController.h; sourceTree = "<group>"; };
+		7D2F1E0816CBC94D0091AB8F /* GKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKMainViewController.m; sourceTree = "<group>"; };
+		7D2F1E0916CBC94D0091AB8F /* GKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GKMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D3D9CEC16CA33FD00967292 /* Frameworks */ = {
+		7D2F1DD116CBAD080091AB8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D3D9CF416CA33FD00967292 /* UIKit.framework in Frameworks */,
-				7D3D9CF616CA33FD00967292 /* Foundation.framework in Frameworks */,
-				7D3D9CF816CA33FD00967292 /* CoreGraphics.framework in Frameworks */,
+				7D2F1DD816CBAD080091AB8F /* UIKit.framework in Frameworks */,
+				7D2F1DDA16CBAD080091AB8F /* Foundation.framework in Frameworks */,
+				7D2F1DDC16CBAD080091AB8F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D3D9CE416CA33FD00967292 = {
+		7D2F1DCB16CBAD080091AB8F = {
 			isa = PBXGroup;
 			children = (
-				7D3D9CF916CA33FD00967292 /* YY's Plant */,
-				7D3D9CF216CA33FD00967292 /* Frameworks */,
-				7D3D9CF016CA33FD00967292 /* Products */,
+				7D2F1DDD16CBAD080091AB8F /* YY's Plant */,
+				7D2F1DD616CBAD080091AB8F /* Frameworks */,
+				7D2F1DD516CBAD080091AB8F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7D3D9CF016CA33FD00967292 /* Products */ = {
+		7D2F1DD516CBAD080091AB8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D3D9CEF16CA33FD00967292 /* YY's Plant.app */,
+				7D2F1DD416CBAD080091AB8F /* YY's Plant.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D3D9CF216CA33FD00967292 /* Frameworks */ = {
+		7D2F1DD616CBAD080091AB8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D3D9CF316CA33FD00967292 /* UIKit.framework */,
-				7D3D9CF516CA33FD00967292 /* Foundation.framework */,
-				7D3D9CF716CA33FD00967292 /* CoreGraphics.framework */,
+				7D2F1DD716CBAD080091AB8F /* UIKit.framework */,
+				7D2F1DD916CBAD080091AB8F /* Foundation.framework */,
+				7D2F1DDB16CBAD080091AB8F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D3D9CF916CA33FD00967292 /* YY's Plant */ = {
+		7D2F1DDD16CBAD080091AB8F /* YY's Plant */ = {
 			isa = PBXGroup;
 			children = (
-				7D3D9D0A16CA341300967292 /* UI */,
-				7D3D9D0216CA33FD00967292 /* GKAppDelegate.h */,
-				7D3D9D0316CA33FD00967292 /* GKAppDelegate.m */,
-				7D3D9D0D16CA3A4A00967292 /* GKMainUIViewControllerViewController.h */,
-				7D3D9D0E16CA3A4A00967292 /* GKMainUIViewControllerViewController.m */,
-				7D3D9CFA16CA33FD00967292 /* Supporting Files */,
+				7D2F1E0316CBBECF0091AB8F /* Utils */,
+				7D2F1DFB16CBAE0E0091AB8F /* Images */,
+				7D2F1DF516CBAD450091AB8F /* Controllers */,
+				7D2F1DE616CBAD080091AB8F /* GKAppDelegate.h */,
+				7D2F1DE716CBAD080091AB8F /* GKAppDelegate.m */,
+				7D2F1DDE16CBAD080091AB8F /* Supporting Files */,
 			);
 			path = "YY's Plant";
 			sourceTree = "<group>";
 		};
-		7D3D9CFA16CA33FD00967292 /* Supporting Files */ = {
+		7D2F1DDE16CBAD080091AB8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D3D9CFB16CA33FD00967292 /* YY's Plant-Info.plist */,
-				7D3D9CFC16CA33FD00967292 /* InfoPlist.strings */,
-				7D3D9CFF16CA33FD00967292 /* main.m */,
-				7D3D9D0116CA33FD00967292 /* YY's Plant-Prefix.pch */,
+				7D2F1DDF16CBAD080091AB8F /* YY's Plant-Info.plist */,
+				7D2F1DE016CBAD080091AB8F /* InfoPlist.strings */,
+				7D2F1DE316CBAD080091AB8F /* main.m */,
+				7D2F1DE516CBAD080091AB8F /* YY's Plant-Prefix.pch */,
+				7D2F1DE916CBAD080091AB8F /* Default.png */,
+				7D2F1DEB16CBAD080091AB8F /* Default@2x.png */,
+				7D2F1DED16CBAD080091AB8F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7D3D9D0A16CA341300967292 /* UI */ = {
+		7D2F1DF516CBAD450091AB8F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7D3D9D0B16CA344F00967292 /* Main.xib */,
+				7D2F1DF616CBAD840091AB8F /* GKRootViewController.h */,
+				7D2F1DF716CBAD840091AB8F /* GKRootViewController.m */,
+				7D2F1DF816CBAD840091AB8F /* GKRootViewController.xib */,
+				7D2F1DFE16CBB0400091AB8F /* GKSearchViewController.h */,
+				7D2F1DFF16CBB0400091AB8F /* GKSearchViewController.m */,
+				7D2F1E0016CBB0400091AB8F /* GKSearchViewController.xib */,
+				7D2F1E0716CBC94C0091AB8F /* GKMainViewController.h */,
+				7D2F1E0816CBC94D0091AB8F /* GKMainViewController.m */,
+				7D2F1E0916CBC94D0091AB8F /* GKMainViewController.xib */,
 			);
-			name = UI;
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7D2F1DFB16CBAE0E0091AB8F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7D2F1DFC16CBAF170091AB8F /* search.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		7D2F1E0316CBBECF0091AB8F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D2F1E0416CBBEE70091AB8F /* UIUtil.h */,
+				7D2F1E0516CBBEE70091AB8F /* UIUtil.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D3D9CEE16CA33FD00967292 /* YY's Plant */ = {
+		7D2F1DD316CBAD080091AB8F /* YY's Plant */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D3D9D0716CA33FD00967292 /* Build configuration list for PBXNativeTarget "YY's Plant" */;
+			buildConfigurationList = 7D2F1DF116CBAD080091AB8F /* Build configuration list for PBXNativeTarget "YY's Plant" */;
 			buildPhases = (
-				7D3D9CEB16CA33FD00967292 /* Sources */,
-				7D3D9CEC16CA33FD00967292 /* Frameworks */,
-				7D3D9CED16CA33FD00967292 /* Resources */,
+				7D2F1DD016CBAD080091AB8F /* Sources */,
+				7D2F1DD116CBAD080091AB8F /* Frameworks */,
+				7D2F1DD216CBAD080091AB8F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -123,65 +172,75 @@
 			);
 			name = "YY's Plant";
 			productName = "YY's Plant";
-			productReference = 7D3D9CEF16CA33FD00967292 /* YY's Plant.app */;
+			productReference = 7D2F1DD416CBAD080091AB8F /* YY's Plant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7D3D9CE616CA33FD00967292 /* Project object */ = {
+		7D2F1DCC16CBAD080091AB8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = GK;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "薛 洪";
 			};
-			buildConfigurationList = 7D3D9CE916CA33FD00967292 /* Build configuration list for PBXProject "YY's Plant" */;
+			buildConfigurationList = 7D2F1DCF16CBAD080091AB8F /* Build configuration list for PBXProject "YY's Plant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7D3D9CE416CA33FD00967292;
-			productRefGroup = 7D3D9CF016CA33FD00967292 /* Products */;
+			mainGroup = 7D2F1DCB16CBAD080091AB8F;
+			productRefGroup = 7D2F1DD516CBAD080091AB8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D3D9CEE16CA33FD00967292 /* YY's Plant */,
+				7D2F1DD316CBAD080091AB8F /* YY's Plant */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7D3D9CED16CA33FD00967292 /* Resources */ = {
+		7D2F1DD216CBAD080091AB8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D3D9CFE16CA33FD00967292 /* InfoPlist.strings in Resources */,
-				7D3D9D0C16CA344F00967292 /* Main.xib in Resources */,
+				7D2F1DE216CBAD080091AB8F /* InfoPlist.strings in Resources */,
+				7D2F1DEA16CBAD080091AB8F /* Default.png in Resources */,
+				7D2F1DEC16CBAD080091AB8F /* Default@2x.png in Resources */,
+				7D2F1DEE16CBAD080091AB8F /* Default-568h@2x.png in Resources */,
+				7D2F1DFA16CBAD840091AB8F /* GKRootViewController.xib in Resources */,
+				7D2F1DFD16CBAF170091AB8F /* search.png in Resources */,
+				7D2F1E0216CBB0400091AB8F /* GKSearchViewController.xib in Resources */,
+				7D2F1E0B16CBC94D0091AB8F /* GKMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D3D9CEB16CA33FD00967292 /* Sources */ = {
+		7D2F1DD016CBAD080091AB8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D3D9D0016CA33FD00967292 /* main.m in Sources */,
-				7D3D9D0416CA33FD00967292 /* GKAppDelegate.m in Sources */,
-				7D3D9D0F16CA3A4A00967292 /* GKMainUIViewControllerViewController.m in Sources */,
+				7D2F1DE416CBAD080091AB8F /* main.m in Sources */,
+				7D2F1DE816CBAD080091AB8F /* GKAppDelegate.m in Sources */,
+				7D2F1DF916CBAD840091AB8F /* GKRootViewController.m in Sources */,
+				7D2F1E0116CBB0400091AB8F /* GKSearchViewController.m in Sources */,
+				7D2F1E0616CBBEE70091AB8F /* UIUtil.m in Sources */,
+				7D2F1E0A16CBC94D0091AB8F /* GKMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7D3D9CFC16CA33FD00967292 /* InfoPlist.strings */ = {
+		7D2F1DE016CBAD080091AB8F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7D3D9CFD16CA33FD00967292 /* en */,
+				7D2F1DE116CBAD080091AB8F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -189,12 +248,18 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7D3D9D0516CA33FD00967292 /* Debug */ = {
+		7D2F1DEF16CBAD080091AB8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -205,25 +270,30 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		7D3D9D0616CA33FD00967292 /* Release */ = {
+		7D2F1DF016CBAD080091AB8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -234,7 +304,7 @@
 			};
 			name = Release;
 		};
-		7D3D9D0816CA33FD00967292 /* Debug */ = {
+		7D2F1DF216CBAD080091AB8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -245,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		7D3D9D0916CA33FD00967292 /* Release */ = {
+		7D2F1DF316CBAD080091AB8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -259,25 +329,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D3D9CE916CA33FD00967292 /* Build configuration list for PBXProject "YY's Plant" */ = {
+		7D2F1DCF16CBAD080091AB8F /* Build configuration list for PBXProject "YY's Plant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D3D9D0516CA33FD00967292 /* Debug */,
-				7D3D9D0616CA33FD00967292 /* Release */,
+				7D2F1DEF16CBAD080091AB8F /* Debug */,
+				7D2F1DF016CBAD080091AB8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D3D9D0716CA33FD00967292 /* Build configuration list for PBXNativeTarget "YY's Plant" */ = {
+		7D2F1DF116CBAD080091AB8F /* Build configuration list for PBXNativeTarget "YY's Plant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D3D9D0816CA33FD00967292 /* Debug */,
-				7D3D9D0916CA33FD00967292 /* Release */,
+				7D2F1DF216CBAD080091AB8F /* Debug */,
+				7D2F1DF316CBAD080091AB8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7D3D9CE616CA33FD00967292 /* Project object */;
+	rootObject = 7D2F1DCC16CBAD080091AB8F /* Project object */;
 }

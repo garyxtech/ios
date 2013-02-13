@@ -2,16 +2,17 @@
 //  GKAppDelegate.h
 //  YY's Plant
 //
-//  Created by 薛 洪 on 13-2-12.
-//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
+//  Created by 薛 洪 on 13-2-13.
+//  Copyright (c) 2013年 薛 洪. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "GKMainUIViewControllerViewController.h"
+#import "GKRootViewController.h"
 
-@interface GKAppDelegate : UIResponder <UIApplicationDelegate>
+@interface GKAppDelegate : UIResponder <UIApplicationDelegate>{
+    GKRootViewController *rootController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-@property GKMainUIViewControllerViewController *mainViewController;
 
 @end

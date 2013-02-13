@@ -2,16 +2,14 @@
 //  GKAppDelegate.m
 //  YY's Plant
 //
-//  Created by 薛 洪 on 13-2-12.
-//  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
+//  Created by 薛 洪 on 13-2-13.
+//  Copyright (c) 2013年 薛 洪. All rights reserved.
 //
 
 #import "GKAppDelegate.h"
+#import "GKRootViewController.h"
 
 @implementation GKAppDelegate
-
-@synthesize window = _window;
-@synthesize mainViewController = _mainViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -19,8 +17,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    [self initMainViewController];
-
+    [self loadRootController];
     return YES;
 }
 
@@ -51,15 +48,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void) loadRootController{
+    rootController = [[GKRootViewController alloc] initWithNibName:nil bundle:nil];
+    rootController.window = self.window;
+    [self.window setRootViewController:rootController];
+    [self.window addSubview:rootController.view];
 
-/*
- customize logic which will be moved somewhere else.
- */
-- (void) initMainViewController{
-    GKMainUIViewControllerViewController *cont = [[GKMainUIViewControllerViewController alloc]initWithNibName:@"Main" bundle:[NSBundle mainBundle]];
-    self.mainViewController = cont;
-    [self.window addSubview:self.mainViewController.view];
-    [self.mainViewController loadSearchView];
 }
 
 @end
